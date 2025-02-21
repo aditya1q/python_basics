@@ -96,7 +96,7 @@
 # print(arr)
 
 #🐍🐍🐍🐍 some dictionary methods: 
-d = {"name": "Alice", "age": 25, "city": "NY"}
+# d = {"name": "Alice", "age": 25, "city": "NY"}
 
 # print(d.get("name"))        # Alice
 # print(d.keys())             # dict_keys(['name', 'age', 'city'])

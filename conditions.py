@@ -68,3 +68,14 @@
 #     print(i)
 #     i += 1
 # print('end')
+
+# pass statement : sometimes we want to pass or stop the previous thing or code then we can use that statement
+
+# this statement passed successfully 
+# for i in range(3):
+#     pass
+
+# # directly this statement runs
+# n = int(input('Enter the Number: '))
+# for i in range(1,11):
+#     print(f'{n} * {i} = {n * i}')
