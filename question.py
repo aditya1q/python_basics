@@ -178,11 +178,34 @@
 #  1234567
 # 123456789
 
-n = int(input('Enter the Number: '))
+# n = int(input('Enter the Number: '))
 
-for i in range(n, 0, -1):
-    print("*" * (n - i - 1), end="")
+# for i in range(1, n + 1):
+#         # Print spaces
+#         for j in range(n - i):
+#             print(" ", end="")
+#         # Print numbers
+#         for j in range(2 * i - 1):
+#             print(j + 1, end="")
+#         # Move to the next line after each row
+#         print()
 
-    # for j in range(i + 1):
-    #     print((j + 1), end="")
-    print('')
+
+# 🐍🐍 10. write a star program # enter 4 for desired output
+# ****
+# *  *
+# *  *
+# ****
+
+# n = int(input('Enter the Number: '))
+
+# for i in range(1, n + 1):
+#     if(i == 1 or i == n):
+#         print("*" * n)
+#     else:
+#         print("*" + " " * (n - 2) + "*")  # Middle rows with spaces
+#         # or 
+#         print("*", end="")
+#         print(" " * (n - 2), end="")
+#         print("*", end="")
+#     print("")
