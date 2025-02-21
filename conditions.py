@@ -13,8 +13,9 @@
 
 # print the table of 2
 
-# for i in range(2, 22, 2):
-#     print(i)
+# n=2
+# for i in range(1, 11):
+#     print(f'{n} * {i} = {n * i}')
 
 # print the number : from 2 to 49
 # for i in range(1, 50):
