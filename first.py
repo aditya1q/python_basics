@@ -120,6 +120,13 @@
 # new_arr = arr.copy()
 # new_arr['name'] = 'kanha'
 
+# merged dictionary
+
+# a = {"name" : "aadi", "course": "MCA"}
+# b = {"age": 25,}
+# c = a | b 
+# print(c)
+
 
 #🐍🐍🐍🐍 set: set are immutable and contain unique values (means if you write two duplicate value in set then it will eliminate the duplicate vlaue and showing value once)
 # arr = [1,2,3,4,5,3,2,4] # this is list
@@ -177,3 +184,25 @@
 # print(arr1.issubset(arr2)) # Returns True if arr1 is a subset of arr2 (means arr1 element are present in arr2)
 # print(arr1.issuperset(arr2)) # Returns False if arr1 contains all elements of arr2 (means all arr1 element present in arr2)
 # print(arr1.isdisjoint(arr2)) # Returns False if s1 and s2 have no common elements  (means if no element of arr1 is present in arr2)
+
+
+
+# square root using function:
+
+# def sqr(n):
+#     print(n * n)
+# n = int(input("Enter the Number: "))
+# output = sqr(n)
+
+# lamda function 
+
+# sqr = lambda x: x * x
+# n = int(input("Enter the Number: "))
+# print(sqr(n))
+
+
+# Join::
+
+a = ["aadi", "ashu", "kanha"]
+output = "::".join(a)
+print(output)
