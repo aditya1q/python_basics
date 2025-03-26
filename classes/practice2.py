@@ -1,7 +1,5 @@
-# learn how to use
-
-
 class getEmployeeData:
+    # these are class object 
     salary = 30000
     role = 'employee'
     language = 'python'
